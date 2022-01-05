@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+            text-align: center;
+        }
+        h1{
+            color: #000;
+            display: inline-block;
+            width: 100px;
+            background-color: white;
+        }
+    </style>
+    <div>
+        <h1>Stop Watch</h1>
+    </div>
+<div>
+   <h1 id="min">0</h1>
+   <h1 id="sec">0</h1>
+   <h1 id="msec">0</h1>
+</div>
+
+<div>
+    <button onclick="start()">start</button>
+    <button onclick="pause()">stop</button>
+    <button onclick="reset()">reset</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
